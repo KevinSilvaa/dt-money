@@ -1,17 +1,16 @@
 // Styling Imports
-import { HeaderContainer, HeaderContent, NewTransactionButton } from "./styles";
+import { HeaderContainer, HeaderContent, NewTransactionButton } from './styles'
 
 // Components Imports
-import { NewTransactionModal } from "../NewTransactionModal";
+import { NewTransactionModal } from '../NewTransactionModal'
 
 // Strategic Imports
-import * as Dialog from "@radix-ui/react-dialog";
+import * as Dialog from '@radix-ui/react-dialog'
 
 // Image Imports
-import logoImg from "../../assets/logo.svg";
+import logoImg from '../../assets/logo.svg'
 
 export function Header() {
-
   return (
     <HeaderContainer>
       <HeaderContent>
@@ -19,14 +18,12 @@ export function Header() {
 
         <Dialog.Root>
           <Dialog.Trigger asChild>
-            <NewTransactionButton>
-              Novo Transação
-            </NewTransactionButton>
+            <NewTransactionButton>Novo Transação</NewTransactionButton>
           </Dialog.Trigger>
 
           <NewTransactionModal />
         </Dialog.Root>
       </HeaderContent>
     </HeaderContainer>
-  );
+  )
 }

@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const TransactionsContainer = styled.div`
   display: flex;
   flex-direction: column;
-`;
+`
 
 export const TransactionsContent = styled.main`
   max-width: 73rem;
@@ -13,13 +13,13 @@ export const TransactionsContent = styled.main`
   display: flex;
   flex-direction: column;
   gap: 4rem;
-`;
+`
 
 export const TransactionsHistory = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-`;
+`
 
 export const TransactionsTable = styled.table`
   width: 100%;
@@ -28,7 +28,7 @@ export const TransactionsTable = styled.table`
 
   td {
     padding: 1.25rem 2rem;
-    background: ${({ theme }) => theme["gray-700"]};
+    background: ${({ theme }) => theme['gray-700']};
 
     &:first-child {
       border-top-left-radius: 6px;
@@ -40,17 +40,13 @@ export const TransactionsTable = styled.table`
       border-bottom-right-radius: 6px;
     }
   }
-`;
+`
 
 interface PriceHighlightProps {
-  $variant: "income" | "outcome";
+  $variant: 'income' | 'outcome'
 }
 
 export const PriceHighlight = styled.span<PriceHighlightProps>`
-  color: ${({ theme, $variant }) => $variant === "income"
-    ?
-    theme["green-300"]
-    :
-    theme["red-300"]
-  }
-`;
+  color: ${({ theme, $variant }) =>
+    $variant === 'income' ? theme['green-300'] : theme['red-300']};
+`
