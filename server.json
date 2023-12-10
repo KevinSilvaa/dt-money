@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-12-09T21:25:19.888Z"
+    },
+    {
+      "id": 2,
+      "description": "Mercado",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 149,
+      "createdAt": "2023-12-09T20:12:19.888Z"
+    },
+    {
+      "id": 3,
+      "description": "Rocketseat ONE",
+      "type": "outcome",
+      "category": "Curso",
+      "price": 1997,
+      "createdAt": "2023-12-10T10:46:41.547Z"
+    }
+  ]
+}
