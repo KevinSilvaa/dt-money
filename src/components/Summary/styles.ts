@@ -15,7 +15,7 @@ export const SummaryContainer = styled.section`
 `;
 
 interface SummaryCardProps {
-  variant?: "green";
+  $variant?: "green";
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -56,7 +56,7 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     line-height: 1.4;
   }
 
-  ${({ variant }) => variant === "green" && css`
+  ${({ $variant }) => $variant === "green" && css`
     background: ${({ theme }) => theme["green-700"]};
   `}
 `;
