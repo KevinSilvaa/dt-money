@@ -47,6 +47,22 @@
       "type": "outcome",
       "createdAt": "2023-12-10T12:28:53.646Z",
       "id": 6
+    },
+    {
+      "description": "Pc Gamer",
+      "price": 4500,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2023-12-10T14:10:59.572Z",
+      "id": 7
+    },
+    {
+      "description": "Desenvolvimento Landing Page",
+      "price": 1200,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-12-10T14:35:56.569Z",
+      "id": 8
     }
   ]
 }

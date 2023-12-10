@@ -13,12 +13,14 @@ import { Summary } from '../../components/Summary'
 import { SearchForm } from './components/SearchForm'
 
 // Strategic Imports
-import { useContext } from 'react'
+import { useContextSelector } from 'use-context-selector'
 import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { priceFormatter, DateFormatter } from '../../utils/formatter'
 
 export function Transactions() {
-  const { transactions } = useContext(TransactionsContext)
+  const transactions = useContextSelector(TransactionsContext, (context) => {
+    return context.transactions
+  })
 
   return (
     <TransactionsContainer>
