@@ -1,0 +1,68 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-12-09T21:25:19.888Z"
+    },
+    {
+      "id": 2,
+      "description": "Mercado",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 149,
+      "createdAt": "2023-12-09T20:12:19.888Z"
+    },
+    {
+      "id": 3,
+      "description": "Rocketseat ONE",
+      "type": "outcome",
+      "category": "Curso",
+      "price": 1997,
+      "createdAt": "2023-12-10T10:46:41.547Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-12-10T12:13:47.324Z",
+      "id": 4
+    },
+    {
+      "description": "Paintball",
+      "price": 100,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2023-12-10T12:16:02.696Z",
+      "id": 5
+    },
+    {
+      "description": "Cadeira",
+      "price": 1099,
+      "category": "Setup",
+      "type": "outcome",
+      "createdAt": "2023-12-10T12:28:53.646Z",
+      "id": 6
+    },
+    {
+      "description": "Pc Gamer",
+      "price": 4500,
+      "category": "Lazer",
+      "type": "outcome",
+      "createdAt": "2023-12-10T14:10:59.572Z",
+      "id": 7
+    },
+    {
+      "description": "Desenvolvimento Landing Page",
+      "price": 1200,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-12-10T14:35:56.569Z",
+      "id": 8
+    }
+  ]
+}
