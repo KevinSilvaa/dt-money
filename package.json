@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:server": "json-server server.json --watch -d 500",
+    "dev:server": "node api/server.cjs -d 500",
     "build": "tsc && vite build",
     "lint": "eslint src --ext .tsx,.ts",
     "lint:fix": "npx eslint src --ext .tsx,.ts --fix",

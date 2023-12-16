@@ -1,7 +1,7 @@
-import jsonServer from 'json-server'
-
-import fs from 'fs'
-import path from 'path'
+/* eslint-disable @typescript-eslint/no-var-requires */
+const jsonServer = require('json-server')
+const fs = require('fs')
+const path = require('path')
 
 const server = jsonServer.create()
 
@@ -11,6 +11,10 @@ const db = JSON.parse(data)
 const router = jsonServer.router(db)
 
 const middlewares = jsonServer.defaults()
+
+server.use((req, res, next) => {
+  setTimeout(next, 1000)
+})
 
 server.use(middlewares)
 server.use(router)
